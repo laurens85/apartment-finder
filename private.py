@@ -112,7 +112,7 @@ SLACK_CHANNEL = "#housing"
 
 # The token that allows us to connect to slack.
 # Should be put in private.py, or set as an environment variable.
-SLACK_TOKEN = os.getenv('xoxp-131557971938-132248308823-136473680258-b72cf310ec06e2bdc8d68df54eb8bf34', "")
+SLACK_TOKEN = os.getenv('docker run -d -e SLACK_TOKEN={xoxp-131557971938-132248308823-139178924948-3280e8faf85d7054ff3a9d1903681dd1} dataquestio/apartment-finder', "")
 
 # Any private settings are imported here.
 try:
